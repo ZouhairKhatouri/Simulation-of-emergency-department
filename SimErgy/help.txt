@@ -1,0 +1,80 @@
+
+SimErgy Command-Line-User-Interface help.
+
+In this interface, the following commands are the one implemented:
+
+	createED <ed_name> : as described in the project
+					
+	addRoom <ed_name,room_type,room_name> : as described in the project
+					
+	addArrival <ed_name,dist_type,arg1,arg2...> : as described in the project
+					
+	addConsultation <ed_name,dist_type,arg1,arg2...> : as described in the project
+					
+	addRadioService <ed_name,dist_type,arg1,arg2...> : as described in the project
+					
+	addMRI <ed_name,dist_type,arg1,arg2...> : as described in the project
+					
+	addBloodTest <ed_name,dist_type,arg1,arg2...>: as described in the project
+					
+	addTransporter <ed_name>: as described in the project
+
+	addTransporter <ed_name,transp_name,transp_surname> : as described in the project
+
+	addStretcher <ed_name> : as described in the project
+				
+	addNurse <ed_name> : as described in the project
+
+	addNurse <ed_name,nurse_name,nurse_surname> : as described in the project
+					
+	addPhysi <ed_name> : as described in the project
+
+	addPhysi <ed_name,physi_name,physi_surname> : as described in the project
+					
+	setL1ArrivalDist <ed_name,dist_type,arg1,...>: as described in the project
+					
+	setL2ArrivalDist <ed_name,dist_type,arg1,...> : as described in the project
+					
+	setL3ArrivalDist <ed_name,dist_type,arg1,...> : as described in the project
+					
+	setL4ArrivalDist <ed_name,dist_type,arg1,...> : as described in the project
+				
+	setL5ArrivalDist <ed_name,dist_type,arg1,...>: as described in the project
+	
+	setCommandType <ed_name,command_type> : let the user choose between a simulation with automatique arrival of patients ("Driven") or without it ("Manual")
+			
+	setPatientInsurance <ed_name,patient_ID,healthInsurance> : as described in the project
+		
+	addPatient <ed_name,patient_name,patient_surname,patient,patient_severity,patient_healthInsurance> : as described in the project
+			
+	executeEvent <ed_name> : as described in the project
+				
+	displayEDState <ed_name> : as described in the project
+					
+	displayPatientState <ed_name,patient_ID> : as described in the project
+				
+	displayHealthServiceState <ed_name,healthservice_identifier> : as described in the project
+					
+	displayPhysicianState <ed_name,physi_ID> : as described in the project
+				
+	displayNurseState <ed_name,nurse_ID> : as described in the project
+				
+	displayTransporterState <ed_name,transp_ID> : as described in the project
+			
+	startManualSimulation <ed_name,time_hori> : as described in the project
+					
+	startDrivenSimulation <ed_name,time_hori> : as described in the project
+					
+	loadConfiguration <path> : loads the configuration stored in the file with the path "path"
+
+	runtest <path> : as described in the project
+					
+	showHistory <ed_name> : shows the history of events of the given ED with the name ed_name
+					
+	saveConfiguration <path> : saves the configuration in the file with the path "path"
+
+	saveOutputs <path> : saves the outputs in the file with the path "path"
+					
+	help <> : shows this page
+					
+	end <> : resume the session

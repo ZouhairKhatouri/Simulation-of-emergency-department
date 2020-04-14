@@ -1,0 +1,43 @@
+package view;
+
+import human.Patient;
+import human.Physician;
+
+public class PhysicianView implements View{
+
+	private Physician physician;
+	
+	
+	
+	public PhysicianView(Physician physician) {
+		super();
+		this.physician = physician;
+	}
+
+
+
+	@Override
+	public void display() {
+		System.out.println("------------------------------------------------------");
+		System.out.println("Name: "+ physician.name);
+		System.out.println("Surname: "+physician.surname);
+		System.out.println("ID number: "+physician.getID());
+		System.out.println("State: "+physician.getState());
+		System.out.println("\nPatient Being Overseen: \n");
+		HumanView view;
+		for(Patient patient:physician.patientsBeenOverseen) {
+			view = new HumanView(patient);
+			view.display();
+		}
+		System.out.println("\nPatient already treated: \n");
+		for(Patient patient:physician.patientsTreated) {
+			view = new HumanView(patient);
+			view.display();
+		}
+		System.out.println("\nMessage-Box content: \n");
+		physician.messageBox.show();
+		System.out.println("------------------------------------------------------");
+	}
+	
+
+}

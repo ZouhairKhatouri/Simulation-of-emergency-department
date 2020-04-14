@@ -1,0 +1,58 @@
+createED <ed>
+
+addPhysi <ed>
+addPhysi <ed>
+addPhysi <ed>
+
+addNurse <ed>
+addNurse <ed>
+addNurse <ed>
+addNurse <ed>
+addNurse <ed>
+
+addTransporter <ed>
+addTransporter <ed>
+addTransporter <ed>
+addTransporter <ed>
+
+addStretcher <ed>
+addStretcher <ed>
+addStretcher <ed>
+addStretcher <ed>
+addStretcher <ed>
+addStretcher <ed>
+addStretcher <ed>
+addStretcher <ed>
+addStretcher <ed>
+addStretcher <ed>
+
+addMRI <ed,Unif,10,20>
+addRadioService <ed,Unif,15,30>
+addBloodTest <ed,Exp,0.1>
+addArrival <ed,Det,2>
+addConsultation <ed,Unif,5,15>
+
+addRoom <ed,WaitingRoom,a>
+addRoom <ed,WaitingRoom,b>
+addRoom <ed,WaitingRoom,c>
+addRoom <ed,WaitingRoom,d>
+addRoom <ed,WaitingRoom,e>
+
+addRoom <ed,BoxRoom,a>
+addRoom <ed,BoxRoom,b>
+addRoom <ed,BoxRoom,c>
+addRoom <ed,BoxRoom,d>
+
+addRoom <ed,ShockRoom,c>
+
+addRoom <ed,RadiographyRoom,d>
+
+addRoom <ed,MRIroom,f>
+
+addRoom <ed,BloodTestLab,s>
+
+addPatient <ed,Dupont,Fabrice,L5,Gold>
+addPatient <ed,Praillet,Claire,L5,Gold>
+addPatient <ed,Khatouri,Zouhair,L5,Gold>
+
+

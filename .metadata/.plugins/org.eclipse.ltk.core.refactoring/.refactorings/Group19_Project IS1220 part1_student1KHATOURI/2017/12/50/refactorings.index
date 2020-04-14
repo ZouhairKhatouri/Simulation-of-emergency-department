@@ -1,0 +1,58 @@
+1513035625374	Move compilation unit
+1513035637360	Move compilation unit
+1513035782202	Move compilation unit
+1513041773242	Move compilation unit
+1513041785031	Move compilation unit
+1513041807393	Move compilation unit
+1513041817636	Move compilation unit
+1513043188949	Delete element
+1513043195139	Delete element
+1513045932191	Delete element
+1513046359438	Rename field 'dist'
+1513046522281	Rename field 'dist'
+1513046574383	Rename field 'dist'
+1513046714670	Rename field 'dist'
+1513046733498	Rename field 'dist'
+1513047781845	Rename field 'servicetime'
+1513047816457	Rename field 'servicetime'
+1513047846273	Rename field 'servicetime'
+1513047877298	Rename field 'servicetime'
+1513047903495	Rename field 'servicetime'
+1513048291155	Rename method 'execute'
+1513048342533	Rename method 'run'
+1513051126583	Rename type 'SetArrivalL1Dist'
+1513051156681	Rename type 'SetArrivalL2Dist'
+1513051183590	Rename type 'SetArrivalL3Dist'
+1513051206614	Rename type 'SetArrivalL4Dist'
+1513051228696	Rename type 'SetArrivalL5Dist'
+1513115034485	Delete element
+1513116027361	Delete element
+1513144889696	Delete element
+1513230779919	Delete element
+1513234129877	Delete element
+1513235232842	Rename field 'bloodTestDepartement'
+1513235271700	Rename field 'radiographyDepartement'
+1513235282445	Rename field 'mriDepartement'
+1513235294641	Rename field 'consultationDepartement'
+1513244625206	Encapsulate field 'commandsHistory'
+1513305053319	Move compilation unit
+1513306441089	Delete element
+1513306446002	Delete element
+1513306527621	Delete element
+1513313170112	Delete element
+1513313480826	Delete element
+1513335990913	Rename local variable 'bloodTestPanel'
+1513356473577	Rename field 'name'
+1513356489984	Rename field 'surname'
+1513356505700	Rename field 'healthInsurance'
+1513356524368	Rename field 'severity'
+1513356537512	Rename field 'arrivalTimestamp'
+1513440723952	Rename local variable 'panel1'
+1513440734806	Rename local variable 'panel2'
+1513452476665	Rename field 'messageBox'
+1513466696659	Delete element
+1513484649397	Delete element
+1513486605242	Rename type 'IDENTIFIER'
+1513486638595	Rename type 'eType'
+1513486670652	Rename field 'name'
+1513487052906	Rename field 'queue'

@@ -1,0 +1,13 @@
+loadConfiguration <my_simergy.init.txt>
+
+startDrivenSimulation <ed,1440>
+
+displayEDState <ed>
+
+showHistory <ed>
+
+computeDTDT <ed>
+
+computeLOS <ed>
+
+end <>
